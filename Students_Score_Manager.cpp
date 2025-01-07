@@ -13,7 +13,19 @@ int main(){
     float List[S]={0}, spare_list[S]={0};// spare list has used for sorting data with keeping the owner of score.
     int key=1, R;
     while ( key != 0 ){
-        cout << "\n* * * * * * * * * * * * *\n1-Add a new student score\n2-Show the students score\n3-Sort scores\n4-Find maximum score\n5-Find minimum score\n6-Class average\n7-Check student acception\n8-Search a score\n9-Exit\n* * * * * * * * * * * * *\n\nEnter your choice: ";
+        cout << "\n* * * * * * * * * * * * *\n1-Add a new student score\n2-Show the students score\n3-Sort scores\n4-Find maximum score\n5-Find minimum score\n6-Class average\n7-Check student acceptance\n8-Search a score\n9-Exit\n* * * * * * * * * * * * *\n\nEnter your choice: ";
+        //* * * * * * * * * * * * *
+        //1-Add a new student score
+        //2-Show the students score
+        //3-Sort scores
+        //4-Find maximum score
+        //5-Find minimum score
+        //6-Class average
+        //7-Check student acceptance
+        //8-Search a score
+        //9-Exit
+        //* * * * * * * * * * * * *
+
         cin >> R;
         switch (R){
 
